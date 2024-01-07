@@ -1,0 +1,90 @@
+body{
+    background-size: cover;
+  }
+  
+  .card{
+    font-size: 12px;
+  }
+  
+  h5{
+    font-size: 17px;
+  }
+  
+  .jumbotron{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+  
+  .content{
+    display: inline-block;
+    align-items : center;
+    height: 90%;
+    width: 35%;
+    background-color: aliceblue;
+    color: black;
+  }
+  #hastag{
+    text-align: center;
+    font-weight: 200;
+    font-size: 42px;
+  }
+  
+  #demo{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  /* Footer! */
+  footer{
+    background-color: rgb(138, 103, 148);
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .social{
+    padding: 0
+  }
+  h4{
+    padding: 10px 0px;
+  }
+  .social li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    padding: 0px;
+  }
+  .social li a i{
+    padding-top: 4px;
+    color: rgb(255, 255, 255);
+    transition: .3s;
+    font-size: 18px;
+  }
+  .social li a i:hover{
+    color:rgb(65, 29, 71);
+    text-decoration: none;
+  }
+  .footer .links ul{
+    list-style-type: none;
+  }
+  .footer .links li a{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    transition: color 0.2s; 
+  }
+  .footer .links li a:hover{
+    text-decoration: none;
+    color: rgb(65, 29, 71); 
+  }
+  footer .location i{
+    font-size: 13px;
+  }
+  .footer .copyright p{
+    font-size: 1rem;
+    color:rgb(89, 65, 109);
+    text-align : center;
+  }

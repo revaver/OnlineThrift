@@ -1,0 +1,55 @@
+form{
+    font-size: 13px;
+}
+/* Footer! */
+footer{
+    background-color: rgb(138, 103, 148);
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .social{
+    padding: 0
+  }
+  h4{
+    padding: 10px 0px;
+  }
+  .social li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    padding: 0px;
+  }
+  .social li a i{
+    padding-top: 4px;
+    color: rgb(255, 255, 255);
+    transition: .3s;
+    font-size: 18px;
+  }
+  .social li a i:hover{
+    color:rgb(65, 29, 71);
+    text-decoration: none;
+  }
+  .footer .links ul{
+    list-style-type: none;
+  }
+  .footer .links li a{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    transition: color 0.2s; 
+  }
+  .footer .links li a:hover{
+    text-decoration: none;
+    color: rgb(65, 29, 71); 
+  }
+  footer .location i{
+    font-size: 13px;
+  }
+  .footer .copyright p{
+    font-size: 1rem;
+    color:rgb(89, 65, 109);
+    text-align : center;
+  }
